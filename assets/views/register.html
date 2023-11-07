@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web εφαρμογή αναζήτησης καταλυμάτων</title>
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html"><img class="logo" src="../img/logo.png" alt="">Hotel Scanner</a></li>
+            </ul>
+            <ul>
+                <li><a href="../../index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="../views/login.html"><i class="fa-solid fa-user"></i>Login</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main class="register-page">
+        <div class="register-page-wrapper">
+            <div class="overlay">
+                <h2>Create Account</h2>
+                <form action="" method="">
+                    <input type="text" name="RegisterPage_Name" id="RegisterPage_Name" required placeholder="Your name">
+                    <input type="input" name="RegisterPage_Email" id="RegisterPage_Email" required placeholder="Your email">
+                    <div class="text-danger email-error">
+                        Must be a valid email address! Ex. example@example.com
+                    </div>
+                    <input type="input" name="RegisterPage_EmailRepeat" id="RegisterPage_EmailRepeat" required placeholder="Repeat your email">
+                    <div class="text-danger email-error email-error-repeat">
+                        The two emails don't match.
+                    </div>
+                    <input type="password" name="RegisterPage_Password" id="RegisterPage_Password" required placeholder="Your password">
+                    <div class="text-danger password-error">
+                        Password must be more than 5 characters!
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" required id="RegisterPage_Checkbox">
+                        <label for="RegisterPage_Checkbox">I Agree all statemetns in Terms of service</label>   
+                    </div>  
+                    <button type="submit">SIGN UP</button>
+                </form>
+                <p>Have already an account? <a href="../views/login.html">Login here</a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <a href="../index.html"><img class="logo" src="../img/logo.png" alt=""></a><p>© 2023 Hotel Scanner All rights reserved.</p>
+        </div>     
+    </footer>
+    <script src="../js/jquery-3.7.1.min.js"></script> 
+    <script src="../js/register.js"></script> 
+</body>
+</html>

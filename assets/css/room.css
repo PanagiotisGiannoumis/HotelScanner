@@ -1,0 +1,406 @@
+.room-page-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.room-title-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #697cae;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 0px
+}
+
+.room-title-container .room-title {
+    display: flex;
+    align-items: center;
+}
+
+.room-price p {
+    margin-bottom: 0px!important;
+}
+
+.room-title-container .room-title img {
+    width: 110px;
+    height: 20px;
+}
+
+.room-page-wrapper img {
+    width: 176px;
+    height: 34px;
+}
+
+.room-info-container {
+    background-color: #697cae;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.room-info-container p {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#FormPage_AddReview {
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.room-description-container {
+    position: relative;
+}
+
+.room-description-container button {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    width: 180px;
+    background-color: #d80d0d;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 0px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.room-description h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.room-description p {
+    padding: 0px 10px;
+    line-height: 35px;
+}
+
+.room-image {
+    width: 100%!important;
+    height: auto!important;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    margin: 100px 0px 50px 0px;
+}
+
+iframe + hr {
+    margin: 20px 0px;
+    border-top: 1px dashed black;
+}
+
+section.reviews, section.add-review  {
+    padding-left: 10px;
+    /* border-left: 2px solid #697cae; */
+}
+
+section.reviews h2, section.add-review h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+section.reviews p {
+    margin: 30px 10px 10px 0px;
+}
+
+section.reviews .review {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: unset;
+    color: black;
+    position: relative;
+    border-color: unset;
+    font-size: 18px;
+}
+
+
+section.reviews .review div:nth-of-type(2) {
+    text-align: center;
+    position: absolute;
+    right: 10px;
+}
+
+section.add-review {
+    margin: 30px 0px;
+}
+
+input{
+    display: none;
+}
+
+/* dl, ol, ul {
+    margin-bottom: 0px!important;
+} */
+
+/* .room-title-container .room-title p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+} */
+
+.heart i {
+    margin-left: 10px;
+}
+
+.review-name {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.btn-danger {
+    width: 100px;
+    background-color: #d80d0d;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#FormPage_AddReview::placeholder {
+    font-size: 15px;
+}
+
+.submit-container {
+    text-align: center;
+}
+
+.review{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+/* stars code */
+.review-container{
+    width:100%;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.review-container2 {
+    height: 31px;
+    position: absolute;
+    margin: 10px 0px;
+}
+  .star{
+    background-color:transparent;
+    border:0;
+    outline:0;
+    
+    .stararea{
+      width:35px;
+      height:44px;
+      display:block;
+      position:relative;
+      color:#aaa;
+    font-size:3em;
+      line-height:50px;
+    cursor:pointer;
+    z-index:10;
+    text-align:center;
+      
+      &:before{
+      width:50px;
+      height:50px;
+      content:'★';
+      display:inline-block;
+      color:#95a5a6;
+      position:absolute;
+      left:0;
+      top:-1px; 
+      opacity:0;
+      
+      
+      z-index:-1;
+      
+    }
+      &:after{
+      width:50px;
+      height:50px;
+      content:'★';
+      display:inline-block;
+      color:#f1c40f;
+      position:absolute;
+      left:0;
+      top:-1px; 
+      opacity:0;
+        z-index:-2;
+      
+    
+      
+    }
+     
+    }
+    &:hover .stararea{
+      color:#999;
+    }
+    
+    &.active .stararea{
+    -webkit-animation: starbackground 500ms 1;
+    -moz-animation:    starbackground 500ms 1; 
+    -o-animation:      starbackground 500ms 1; 
+    animation:         starbackground 500ms 1; 
+    animation-delay: 250ms;
+    animation-fill-mode: forwards;
+      &:before{
+        
+        
+    -webkit-animation: staranimation 250ms 1;
+    -moz-animation:    staranimation 250ms 1; 
+    -o-animation:      staranimation 250ms 1; 
+    animation:         staranimation 250ms 1; 
+      }
+      &:after{
+    -webkit-animation: staranimation 350ms 1;
+    -moz-animation:    staranimation 500ms 1; 
+    -o-animation:      staranimation 500ms 1; 
+    animation:         staranimation 500ms 1;
+    animation-delay: 250ms;
+      }
+    }
+  }
+  
+  
+  @-webkit-keyframes staranimation {
+    0%   { 
+      opacity: 0;
+      transform:scale(1);
+      
+    }
+    50% {opacity:0.5;}
+    100% { 
+      opacity: 0;
+      transform:scale(2);
+      top:-1px;
+      
+    }
+  }
+  @-moz-keyframes staranimation {
+    0%   { 
+      opacity: 0;
+      transform:scale(1);
+      
+    }
+    50% {opacity:0.5;}
+    100% { 
+      opacity: 0;
+      transform:scale(2);
+      top:-1px;
+      
+    }
+  }
+  @-o-keyframes staranimation {
+    0%   { 
+      opacity: 0;
+      transform:scale(1);
+      
+    }
+    50% {opacity:0.5;}
+    100% { 
+      opacity: 0;
+      transform:scale(2);
+      top:-1px;
+      
+    }
+  }
+  @keyframes staranimation {
+    0%   { 
+      opacity: 0;
+      transform:scale(1);
+      
+    }
+    50% {opacity:0.5;}
+    100% { 
+      opacity: 0;
+      transform:scale(2);
+      top:-1px;
+      
+    }
+  }
+  
+    
+  @-webkit-keyframes starbackground {
+    0%   { 
+          color: #aaaaaa; 
+    }
+     100%   { 
+      color: #f1c40f;
+     
+    }  
+  }
+  @-moz-keyframes starbackground {
+    0%   { 
+          color: #aaaaaa; 
+    }
+     100%   { 
+      color: #f1c40f;
+     
+    }  
+  }
+  @-o-keyframes starbackground {
+     0%   { 
+          color: #aaaaaa; 
+    }
+     100%   { 
+      color: #f1c40f;
+     
+    }  
+  }
+  @keyframes starbackground {
+    0%   { 
+          color: #aaaaaa; 
+    }
+     100%   { 
+      color: #f1c40f;
+     
+    }  
+  }
+  
+  
+  
+/* stars code */
+
+section.add-review div button[type="submit"] {
+    width: 85px;
+    height: 45px;
+    font-size: 18px;
+    background-color: #697cae;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    width: 200px;
+    height: 50px;
+}
