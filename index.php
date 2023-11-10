@@ -29,13 +29,8 @@
                     <option value="athens">Athens</option>
                     <option value="thessaloniki">Thessaloniki</option>
                     <option value="patra">Patra</option>
-                    <option value="piraeus">Piraeus</option>
                     <option value="heraklion">Heraklion</option>
                     <option value="larissa">Larissa</option>
-                    <option value="volos">Volos</option>
-                    <option value="ioannina">Ioannina</option>
-                    <option value="chalkida">Chalkida</option>
-                    <option value="trikala">Trikala</option>
                 </select>
                 <select name="HomePageForm_RoomType" id="HomePageForm_RoomType">
                     <option value="">Room Type</option>
@@ -43,10 +38,7 @@
                     <option value="double">Double</option>
                     <option value="triple">Triple</option>
                     <option value="quad">Quad</option>
-                    <option value="queen">Queen</option>
                     <option value="king">King</option>
-                    <option value="twin">Twin</option>
-                    <option value="suite">Suite</option>
                 </select>
                 <input type="date" id="HomePageForm_CheckInDate" name="HomePageForm_CheckInDate" required>
                 <input type="date" id="HomePageForm_CheckOutDate" name="HomePageForm_CheckOutDate" required>
