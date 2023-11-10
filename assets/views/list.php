@@ -13,11 +13,11 @@
     <header>
         <nav>
             <ul>
-                <li><a href="../../index.html"><img class="logo" src="../img/logo.png" alt="">Hotel Scanner</a></li>
+                <li><a href="../../index.php"><img class="logo" src="../img/logo.png" alt="">Hotel Scanner</a></li>
             </ul>
             <ul>
-                <li><a href="../../index.html"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li><a href="../views/login.html"><i class="fa-solid fa-user"></i>Login</a></li>
+                <li><a href="../../index.php"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="../views/login.php"><i class="fa-solid fa-user"></i>Login</a></li>
             </ul>
         </nav>
     </header>
@@ -91,7 +91,7 @@
                         <div>
                             <h2>HILTON HOTEL<br><span>ATHENS, ZWGRAFOU</span></h2>
                             <p>This is Hilton Hotel dsdas dsajdbsa d sajdbsa d sajdnsa dsad sajdnsa dsad sad sad as</p>
-                            <a href="../views/room.html">Go to Room Page</a>
+                            <a href="../views/room.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -110,7 +110,7 @@
                         <div>
                             <h2>HILTON HOTEL<br><span>ATHENS, ZWGRAFOU</span></h2>
                             <p>This is Hilton Hotel dsdas dsajdbsa d sajdbsa d sajdnsa dsad sajdnsa dsad sad sad as</p>
-                            <a href="../views/room.html">Go to Room Page</a>
+                            <a href="../views/room.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -129,7 +129,7 @@
                         <div>
                             <h2>HILTON HOTEL<br><span>ATHENS, ZWGRAFOU</span></h2>
                             <p>This is Hilton Hotel dsdas dsajdbsa d sajdbsa d sajdnsa dsad sajdnsa dsad sad sad as</p>
-                            <a href="../views/room.html">Go to Room Page</a>
+                            <a href="../views/room.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -148,7 +148,7 @@
                         <div>
                             <h2>HILTON HOTEL<br><span>ATHENS, ZWGRAFOU</span></h2>
                             <p>This is Hilton Hotel dsdas dsajdbsa d sajdbsa d sajdnsa dsad sajdnsa dsad sad sad as</p>
-                            <a href="../views/room.html">Go to Room Page</a>
+                            <a href="../views/room.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -167,7 +167,7 @@
                         <div>
                             <h2>HILTON HOTEL<br><span>ATHENS, ZWGRAFOU</span></h2>
                             <p>This is Hilton Hotel dsdas dsajdbsa d sajdbsa d sajdnsa dsad sajdnsa dsad sad sad as</p>
-                            <a href="../views/room.html">Go to Room Page</a>
+                            <a href="../views/room.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -186,7 +186,7 @@
     </main>
     <footer>
         <div class="footer-wrapper">
-            <a href="../index.html"><img class="logo" src="../img/logo.png" alt=""></a><p>© 2023 Hotel Scanner All rights reserved.</p>
+            <a href="../index.php"><img class="logo" src="../img/logo.png" alt=""></a><p>© 2023 Hotel Scanner All rights reserved.</p>
         </div>     
     </footer>
     <script src="../js/jquery-3.7.1.min.js"></script> 

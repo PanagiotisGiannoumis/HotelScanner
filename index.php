@@ -13,11 +13,11 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html"><img class="logo" src="assets/img/logo.png" alt="">Hotel Scanner</a></li>
+                <li><a href="index.php"><img class="logo" src="assets/img/logo.png" alt="">Hotel Scanner</a></li>
             </ul>
             <ul>
-                <li><a href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li><a href="assets/views/login.html"><i class="fa-solid fa-user"></i>Login</a></li>
+                <li><a href="index.php"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="assets/views/login.php"><i class="fa-solid fa-user"></i>Login</a></li>
             </ul>
         </nav>
     </header>
@@ -50,13 +50,13 @@
                 </select>
                 <input type="date" id="HomePageForm_CheckInDate" name="HomePageForm_CheckInDate" required>
                 <input type="date" id="HomePageForm_CheckOutDate" name="HomePageForm_CheckOutDate" required>
-                <a href="assets/views/list.html"><input type="button" value="Search"></a>
+                <a href="assets/views/list.php"><input type="button" value="Search"></a>
             </form>
         </section>
     </main>
     <footer>
         <div class="footer-wrapper">
-            <a href="index.html"><img class="logo" src="assets/img/logo.png" alt=""></a><p>© 2023 Hotel Scanner All rights reserved.</p>
+            <a href="index.php"><img class="logo" src="assets/img/logo.png" alt=""></a><p>© 2023 Hotel Scanner All rights reserved.</p>
         </div> 
     </footer>
 </body>
