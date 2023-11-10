@@ -1,26 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel scanner</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <link rel="stylesheet" href="assets/css/general.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-</head>
+<?php require 'assets/views/layouts/head.php'; ?>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.php"><img class="logo" src="assets/img/logo.png" alt="">Hotel Scanner</a></li>
-            </ul>
-            <ul>
-                <li><a href="index.php"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li><a href="assets/views/login.php"><i class="fa-solid fa-user"></i>Login</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php require 'assets/views/layouts/header.php'; ?>
     <main class="home-page">
         <section class="main-section">
             <form action="" method="">
@@ -46,10 +28,6 @@
             </form>
         </section>
     </main>
-    <footer>
-        <div class="footer-wrapper">
-            <a href="index.php"><img class="logo" src="assets/img/logo.png" alt=""></a><p>© 2023 Hotel Scanner All rights reserved.</p>
-        </div> 
-    </footer>
+    <?php require 'assets/views/layouts/footer.php'; ?>
 </body>
 </html>

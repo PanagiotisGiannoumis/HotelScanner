@@ -1,27 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web εφαρμογή αναζήτησης καταλυμάτων</title>
-    <link rel="shortcut icon" href="../img/favicon.ico">
-    <link rel="stylesheet" href="../css/general.css">
-    <link rel="stylesheet" href="../css/login.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
-</head>
+<?php require '../views/layouts/head.php'; ?>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="../../index.php"><img class="logo" src="../img/logo.png" alt="">Hotel Scanner</a></li>
-            </ul>
-            <ul>
-                <li><a href="../../index.php"><i class="fa-solid fa-house"></i>Home</a></li>
-                <li><a href="../views/login.php"><i class="fa-solid fa-user"></i>Login</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php require '../views/layouts/header.php'; ?>
     <main class="login-page">
         <div class="login-page-wrapper">
             <div class="overlay">
@@ -41,11 +22,7 @@
             </div>
         </div>     
     </main>
-    <footer>
-        <div class="footer-wrapper">
-            <a href="../index.php"><img class="logo" src="../img/logo.png" alt=""></a><p>© 2023 Hotel Scanner All rights reserved.</p>
-        </div>     
-    </footer>  
+    <?php require '../views/layouts/footer.php'; ?>
     <script src="../js/jquery-3.7.1.min.js"></script> 
     <script src="../js/login.js"></script>  
 </body>
