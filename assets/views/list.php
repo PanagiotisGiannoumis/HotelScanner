@@ -65,7 +65,7 @@
                         <div>
                             <h2>Megali Vretania Hotel<br><span> Athens, Syntagma</span></h2>
                             <p>With a prime location, opposite Constitution Square and the House of Parliament, the Grande Bretagne features luxurious rooms and stunning city views from its magnificent rooftop terrace. WiFi is offered in all rooms and areas.</p>
-                            <a href="../views/room.php">Go to Room Page</a>
+                            <a href="../views/room-1.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -84,7 +84,7 @@
                         <div>
                             <h2>Hilton Hotel<br><span>Athens, Evangelismos</span></h2>
                             <p>Located in the heart of Athens, the Hilton Athens features elegant rooms, 3 swimming pools, the popular rooftop Galaxy Bar and 4 restaurants. Evangelismos Metro Station is just a few steps away and connects to Syntagma Square within 5 minutes.</p>
-                            <a href="../views/room.php">Go to Room Page</a>
+                            <a href="../views/room-2.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -103,7 +103,7 @@
                         <div>
                             <h2>Perianth Hotel<br><span>Athens, Monastiraki</span></h2>
                             <p>The curved balconies of this Bauhaus landmark overlook the lively café scene on Agia Irini Square, named after the domed church that anchors the plaza.</p>
-                            <a href="../views/room.php">Go to Room Page</a>
+                            <a href="../views/room-3.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -122,7 +122,7 @@
                         <div>
                             <h2>Shila Hotel<br><span>Athens, Kolonaki</span></h2>
                             <p>You could walk past this residence on a pedestrian street in upmarket Kolonaki and never know it was the city’s most soulful guesthouse. </p>
-                            <a href="../views/room.php">Go to Room Page</a>
+                            <a href="../views/room-4.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
@@ -141,7 +141,7 @@
                         <div>
                             <h2>Four Seasons Astir Palace<br><span>Athens, Vouliagmeni</span></h2>
                             <p>The Astir Palace put the Athens Riviera on the map in the 1960s. After a recent glossy makeover courtesy of the Four Seasons, it’s back—and exactly what this up-and-coming coastline needed: a full-blown seaside hotel that isn’t stuck in the past. </p>
-                            <a href="../views/room.php">Go to Room Page</a>
+                            <a href="../views/room-5.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">

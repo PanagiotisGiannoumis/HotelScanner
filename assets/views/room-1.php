@@ -13,10 +13,10 @@
                     <p class="heart">&nbsp;&nbsp;|<i class="fa-regular fa-heart"></i></p>
                 </div>
                 <div class="room-price">
-                    <p>Per Night: 500&euro;</p>
+                    <p>Per Night: 750&euro;</p>
                 </div>
             </div>
-            <img src="../img/rooms/room-2.jpg" class="room-image" alt="">
+            <img src="../img/rooms/room-1.jpg" class="room-image" alt="">
             <div class="room-info-container">
                 <p>Count of Guests<br><i class="fa-solid fa-user"></i>2</p>
                 <p>Type of room<br><i class="fa-solid fa-bed"></i>2</p>
@@ -26,7 +26,7 @@
             </div>
             <div class="room-description-container">
                 <div class="room-description">
-                    <h2>Room Description</h2>
+                    <h2>Hotel Description</h2>
                     <p>With a prime location, opposite Constitution Square and the House of Parliament, the Grande Bretagne features luxurious rooms and stunning city views from its magnificent rooftop terrace. WiFi is offered in all rooms and areas.</p>
                     <p>The lavish rooms are appointed with the finest furnishings. The marble bathrooms feature a vanity counter, separate bathtub, and shower. Some rooms have balconies facing the Acropolis, and the daily changing of the guard at the parliament building.</p>
                     <p>From Grande Bretagne’s Roof Garden Restaurant you can see the original Olympic Stadium as you dove into the pool; the Acropolis from your barstool; the Parthenon as you sample the finest Mediterranean cuisine.</p>
