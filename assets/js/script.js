@@ -20,108 +20,108 @@ function closeMenu() {
 // LIST PAGE
 if ( window.location.href.indexOf("list.php") > -1  )
 {
-    // Price range slider
-    const rangeInput = document.querySelectorAll(".range-input input"),
-    priceInput = document.querySelectorAll(".price-input input"),
-    range = document.querySelector(".slider .progress");
-    let priceGap = 50;
+  // Price range slider
+  const rangeInput = document.querySelectorAll(".range-input input"),
+  priceInput = document.querySelectorAll(".price-input input"),
+  range = document.querySelector(".slider .progress");
+  let priceGap = 50;
 
-    priceInput.forEach(input =>{
-        input.addEventListener("input", e =>{
-            let minPrice = parseInt(priceInput[0].value),
-            maxPrice = parseInt(priceInput[1].value);
-            
-            if((maxPrice - minPrice >= priceGap) && maxPrice <= rangeInput[1].max){
-                if(e.target.className === "input_min"){
-                    rangeInput[0].value = minPrice;
-                    range.style.left = ((minPrice / rangeInput[0].max) * 100) + "%";
-                }else{
-                    rangeInput[1].value = maxPrice;
-                    range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
-                }
-            }
-        });
-    });
+  priceInput.forEach(input =>{
+      input.addEventListener("input", e =>{
+          let minPrice = parseInt(priceInput[0].value),
+          maxPrice = parseInt(priceInput[1].value);
+          
+          if((maxPrice - minPrice >= priceGap) && maxPrice <= rangeInput[1].max){
+              if(e.target.className === "input_min"){
+                  rangeInput[0].value = minPrice;
+                  range.style.left = ((minPrice / rangeInput[0].max) * 100) + "%";
+              }else{
+                  rangeInput[1].value = maxPrice;
+                  range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+              }
+          }
+      });
+  });
 
-    rangeInput.forEach(input =>{
-        input.addEventListener("input", e =>{
-            let minVal = parseInt(rangeInput[0].value),
-            maxVal = parseInt(rangeInput[1].value);
+  rangeInput.forEach(input =>{
+      input.addEventListener("input", e =>{
+          let minVal = parseInt(rangeInput[0].value),
+          maxVal = parseInt(rangeInput[1].value);
 
-            if((maxVal - minVal) < priceGap){
-                if(e.target.className === "range_min"){
-                    rangeInput[0].value = maxVal - priceGap
-                }else{
-                    rangeInput[1].value = minVal + priceGap;
-                }
-            }else{
-                priceInput[0].value = minVal;
-                priceInput[1].value = maxVal;
-                range.style.left = ((minVal / rangeInput[0].max) * 100) + "%";
-                range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
-            }
-        });
-    });
+          if((maxVal - minVal) < priceGap){
+              if(e.target.className === "range_min"){
+                  rangeInput[0].value = maxVal - priceGap
+              }else{
+                  rangeInput[1].value = minVal + priceGap;
+              }
+          }else{
+              priceInput[0].value = minVal;
+              priceInput[1].value = maxVal;
+              range.style.left = ((minVal / rangeInput[0].max) * 100) + "%";
+              range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+          }
+      });
+  });
+
+  const $formListPage = document.querySelector(".list-page form");
+  const $CountOfGuestsListPage = document.querySelector("#ListPageForm_CountOfGuests");
+  const $RoomTypeListPage = document.querySelector("#ListPageForm_RoomType");
+  const $CityListPage = document.querySelector("#ListPageForm_City");
+  const $InputMin = document.querySelector(".input_min");
+  const $InputMax = document.querySelector(".input_max");
+
+  $formListPage.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const { ListPageForm_CountOfGuests, ListPageForm_RoomType, ListPageForm_City, input_min, input_max} = e.target.elements;
+    const values = {
+        guests: ListPageForm_CountOfGuests.value,
+        roomtype: ListPageForm_RoomType.value,
+        city: ListPageForm_City.value,
+        inputmin: input_min.value,
+        inputmax: input_max.value,
+    };
+    console.log(values);
+    console.log(values.inputmin);
+    if(values.guests === "one" && values.city === "athens") {
+      $(".guests-2.thessaloniki").hide();
+      $(".guests-3.athens").hide();
+    }
+    else if (values.guests === "two" && values.city === "athens") {
+      $(".guests-1").hide();
+      $(".guests-2").hide();
+      $(".guests-3").hide();
+    }
+    else if (values.guests === "three" && values.city === "athens") {
+      $(".guests-1.athens").hide();
+      $(".guests-2.thessaloniki").hide();
+    }
+    else if (values.guests === "one" && values.city === "thessaloniki") {
+      $(".guests-1").hide();
+      $(".guests-2").hide();
+      $(".guests-3").hide();
+    }
+    else if (values.guests === "two" && values.city === "thessaloniki") {
+      $(".guests-1.athens").hide();
+      $(".guests-3.athens").hide();
+    }
+    else if (values.guests === "three" && values.city === "thessaloniki") {
+      $(".guests-1").hide();
+      $(".guests-2").hide();
+      $(".guests-3").hide();
+    }
+  //   else if(values.inputmax <= 350) {
+  //     $(".guests-1").hide();
+  //     $(".guests-2").hide();
+  //     $(".guests-3").hide();
+  //   }
+  //   else if(values.inputmin > 350 && values.inputmax < 400) {
+  //     $(".guests-1").hide();
+  //     $(".guests-2").hide();
+  //     $(".guests-3").hide();
+  //   }
+  // console.log($(".per-night").text());
+  });
 }
-
-const $formListPage = document.querySelector(".list-page form");
-const $CountOfGuestsListPage = document.querySelector("#ListPageForm_CountOfGuests");
-const $RoomTypeListPage = document.querySelector("#ListPageForm_RoomType");
-const $CityListPage = document.querySelector("#ListPageForm_City");
-const $InputMin = document.querySelector(".input_min");
-const $InputMax = document.querySelector(".input_max");
-
-$formListPage.addEventListener("submit", (e) => {
-  e.preventDefault();
-  const { ListPageForm_CountOfGuests, ListPageForm_RoomType, ListPageForm_City, input_min, input_max} = e.target.elements;
-  const values = {
-      guests: ListPageForm_CountOfGuests.value,
-      roomtype: ListPageForm_RoomType.value,
-      city: ListPageForm_City.value,
-      inputmin: input_min.value,
-      inputmax: input_max.value,
-  };
-  console.log(values);
-  console.log(values.inputmin);
-  if(values.guests === "one" && values.city === "athens") {
-    $(".guests-2.thessaloniki").hide();
-    $(".guests-3.athens").hide();
-  }
-  else if (values.guests === "two" && values.city === "athens") {
-    $(".guests-1").hide();
-    $(".guests-2").hide();
-    $(".guests-3").hide();
-  }
-  else if (values.guests === "three" && values.city === "athens") {
-    $(".guests-1.athens").hide();
-    $(".guests-2.thessaloniki").hide();
-  }
-  else if (values.guests === "one" && values.city === "thessaloniki") {
-    $(".guests-1").hide();
-    $(".guests-2").hide();
-    $(".guests-3").hide();
-  }
-  else if (values.guests === "two" && values.city === "thessaloniki") {
-    $(".guests-1.athens").hide();
-    $(".guests-3.athens").hide();
-  }
-  else if (values.guests === "three" && values.city === "thessaloniki") {
-    $(".guests-1").hide();
-    $(".guests-2").hide();
-    $(".guests-3").hide();
-  }
-//   else if(values.inputmax <= 350) {
-//     $(".guests-1").hide();
-//     $(".guests-2").hide();
-//     $(".guests-3").hide();
-//   }
-//   else if(values.inputmin > 350 && values.inputmax < 400) {
-//     $(".guests-1").hide();
-//     $(".guests-2").hide();
-//     $(".guests-3").hide();
-//   }
-// console.log($(".per-night").text());
-});
 // LIST PAGE
 
 //LOGIN PAGE
