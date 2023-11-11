@@ -29,5 +29,6 @@
         </section>
     </main>
     <?php require 'assets/views/layouts/footer.php'; ?>
+    <?php require 'assets/views/layouts/scripts.php'; ?>
 </body>
 </html>

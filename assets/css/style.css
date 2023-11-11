@@ -27,14 +27,13 @@ header {
     height: 80px;
     background-color: #1e1e1e;
     font-size: 18px;
-    box-shadow: 1px solid red;
     box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.82);
     position: sticky;
     top: 0px;
     z-index: 10;;
 }
 
-header nav {
+.header-wrapper {
     max-width: 1200px;
     margin: auto;
     height: 100%;
@@ -43,16 +42,26 @@ header nav {
     align-items: center;
 }
 
+.logo-container a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 180px;
+}
+
 header nav ul {
     display: flex;
     align-items: center;
     height: 100%;
-}
-
-header nav ul:last-child li:first-child {
-    padding-right: 20px;
-    border-right: 2px dotted white;
-    margin-right: 20px;
+    justify-content: space-between;
 }
 
 header nav ul li  {
@@ -63,17 +72,13 @@ header nav ul li a {
     text-decoration: none;
     color: white;
     display: flex;
+    align-items: center;
 }
 
 header nav ul li a:hover {
     color: #697cae;
 }
 
-header nav ul:first-child li:first-child a {
-    display: flex;
-    align-items: center;
-    font-size: 22px;
-}
 
 .logo {
     width: 45px;
@@ -84,6 +89,26 @@ header nav ul:first-child li:first-child a {
 i.fa-solid.fa-house, i.fa-solid.fa-user {
     margin-right: 5px;
 }
+
+/* Hambuger Menu */
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fea420;
+}
+
+/* Hambuger Menu */
+
+/* Header */
 
 /* Footer */
 footer {
@@ -109,6 +134,7 @@ footer {
 .footer-wrapper p {
     font-size: 16px;
 }
+/* Footer */
 
 /* HOME PAGE */
 main {
@@ -116,7 +142,7 @@ main {
     background-image: url(../img/home-page-bg-img.jpg);
     background-repeat: no-repeat;
     background-position: center -70px;
-    background-size: cover;
+    background-size: 1920px;
 }
 
 section.main-section {

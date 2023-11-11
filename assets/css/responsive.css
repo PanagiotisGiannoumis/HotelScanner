@@ -1,0 +1,127 @@
+@media only screen and (max-width: 1200px) {
+
+    /* Header */
+    header nav {
+        max-width: 1024px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* Header */
+    header nav {
+        max-width: 768px;
+    }
+
+    /* Hambuger Menu */
+
+    .nav {
+        width: unset;
+    }
+
+    .header-wrapper {
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    header .nav ul {
+        position: fixed;
+        left: -100%;
+        display: block;
+        top: 100px;
+        flex-direction: column;
+        background-color: rgba(27,27,27,0.98);
+        width: 50%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.85);
+    }
+
+    header .nav ul.active {
+        left: 0;
+        height: 100%;
+    }
+
+    header .nav ul li {
+        margin: 3.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        left: 40px;
+        top: 35px;
+    }
+
+    header .nav ul li a {
+        color: white;
+        font-size: 22px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    header .nav ul.active .fa-instagram:before, header .nav ul.active .fa-facebook-f:before {
+        font-size: 35px;
+        margin: 0px 10px;
+    }
+
+    /* Hambuger Menu */
+
+}
+
+@media only screen and (max-width: 768px) { 
+
+    /* Hambuger Menu */
+    header .nav ul {
+        width: 60%;
+    }
+    /* Hambuger Menu */
+}
+
+
+@media only screen and (max-width: 600px) { 
+
+    /* Hambuger Menu */
+    header .nav ul {
+        width: 70%;
+    }
+
+    header .nav ul li a {
+        font-size: 20px;
+    }
+    /* Hambuger Menu */
+}
+
+@media only screen and (max-width: 480px) { 
+
+    
+    /* Hambuger Menu */
+    .hamburger {
+        left: 20px;
+    }
+
+    header .nav ul {
+        width: 80%;
+    }
+
+    header .nav ul li a {
+        font-size: 17px;
+    }
+    /* Hambuger Menu */
+}

@@ -14,5 +14,6 @@ define('HOTELSCANNER_FOLDER', 'HotelScanner');
     <title>Hotel scanner</title>
     <link rel="shortcut icon" href="<?php echo HOTELSCANNER_URL; ?>/assets/img/favicon.ico">
     <link rel="stylesheet" href="<?php echo HOTELSCANNER_URL; ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo HOTELSCANNER_URL; ?>/assets/css/responsive.css">
     <link rel="stylesheet" href="<?php echo HOTELSCANNER_URL; ?>/assets/css/font-awesome.min.css">
 </head>

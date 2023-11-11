@@ -23,7 +23,6 @@
         </div>     
     </main>
     <?php require '../views/layouts/footer.php'; ?>
-    <script src="../js/jquery-3.7.1.min.js"></script> 
-    <script src="../js/login.js"></script>  
+    <?php require '../views/layouts/scripts.php'; ?>  
 </body>
 </html>
