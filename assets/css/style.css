@@ -670,8 +670,8 @@ main.room-page .room-title-container .room-title img {
 }
 
 main.room-page .room-page-wrapper img {
-    width: 176px;
-    height: 34px;
+    width: 175px;
+    height: 35px;
 }
 
 main.room-page .room-info-container {
@@ -869,7 +869,7 @@ main.room-page .review{
     margin-bottom: 10px;
 }
 .review-container2 {
-    height: 31px;
+    height: 30px;
     position: absolute;
     margin: 10px 0px;
 }
