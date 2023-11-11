@@ -7,7 +7,7 @@
         <div class="room-page-wrapper">
             <div class="room-title-container">
                 <div class="room-title">
-                    <p>Four Seasons Astir Palace - Athens, Vouliagmeni |</p>
+                    <p>Four Seasons Astir Palace - Thessaloniki, Toumpa |</p>
                     <p>&nbsp;Reviews:</p>
                     <p>&nbsp;<img src="../img/stars-4.png" alt=""></p>
                     <p class="heart">&nbsp;&nbsp;|<i class="fa-regular fa-heart"></i></p>

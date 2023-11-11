@@ -13,7 +13,7 @@
                     <p class="heart">&nbsp;&nbsp;|<i class="fa-regular fa-heart"></i></p>
                 </div>
                 <div class="room-price">
-                    <p>Per Night: 350&euro;</p>
+                    <p>Per Night: 360&euro;</p>
                 </div>
             </div>
             <img src="../img/rooms/room-2.jpg" class="room-image" alt="">

@@ -10,7 +10,6 @@
                     <option value="">City</option>
                     <option value="athens">Athens</option>
                     <option value="thessaloniki">Thessaloniki</option>
-                    <option value="patra">Patra</option>
                 </select>
                 <select name="HomePageForm_RoomType" id="HomePageForm_RoomType">
                     <option value="">Room Type</option>

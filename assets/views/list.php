@@ -24,26 +24,25 @@
                         <option value="">City</option>
                         <option value="athens">Athens</option>
                         <option value="thessaloniki">Thessaloniki</option>
-                        <option value="patra">Patra</option>
                     </select>
                     <!-- Price Slider -->
                     <div class="price-input">
                         <div class="field">
                             <span>Min &euro;</span>
-                            <input type="number" class="input-min" value="0" name="input-min">
+                            <input type="number" class="input_min" value="0" name="input_min">
                         </div>
                         <div class="separator">-</div>
                         <div class="field">
                             <span>Max &euro;</span>
-                            <input type="number" class="input-max" value="5000" name="input-max">
+                            <input type="number" class="input_max" value="1000" name="input_max">
                         </div>
                     </div>
                     <div class="slider">
                     <div class="progress"></div>
                     </div>
                     <div class="range-input">
-                        <input type="range" class="range-min" min="0" max="5000" value="0" step="50">
-                        <input type="range" class="range-max" min="0" max="5000" value="5000" step="50">
+                        <input type="range" class="range_min" min="0" max="1000" value="0" step="50">
+                        <input type="range" class="range_max" min="0" max="1000" value="1000" step="50">
                     </div>
                     <!-- Price Slider -->
                     <input type="date" id="ListPageForm_CheckInDate" name="ListPageForm_CheckInDate" required>
@@ -53,7 +52,7 @@
             </aside>
             <section class="search-results">
                 <h2>Search Results</h2>
-                <article>
+                <article class="guests-3 athens">
                     <div class="article-description">
                         <img src="../img/rooms/room-1.jpg" alt="">
                         <div>
@@ -64,15 +63,15 @@
                     </div>
                     <div class="article-details">
                         <div>
-                            <p>Per Night: 750&euro;</p>
+                            <p>Per Night: <span class="per-night">750</span>&euro;</p>
                         </div>
                         <div>
-                            <p>Count of Guests: 1</p>
-                            <p>Type of Room: Single Room</p>
+                            <p>Count of Guests: 3</p>
+                            <p>Type of Room: Triple Room</p>
                         </div>
                     </div>  
                 </article>
-                <article>
+                <article class="guests-1 athens">
                     <div class="article-description">
                         <img src="../img/rooms/room-2.jpg" alt="">
                         <div>
@@ -83,7 +82,7 @@
                     </div>
                     <div class="article-details">
                         <div>
-                            <p>Per Night: 350&euro;</p>
+                            <p>Per Night: <span class="per-night">360</span>&euro;</p>
                         </div>
                         <div>
                             <p>Count of Guests: 1</p>
@@ -91,26 +90,26 @@
                         </div>
                     </div>  
                 </article>
-                <article>
+                <article class="guests-2 thessaloniki">
                     <div class="article-description">
                         <img src="../img/rooms/room-3.jpg" alt="">
                         <div>
-                            <h2>Perianth Hotel<br><span>Athens, Monastiraki</span></h2>
+                            <h2>Perianth Hotel<br><span>Thessaloniki, Tsimiski</span></h2>
                             <p>The curved balconies of this Bauhaus landmark overlook the lively café scene on Agia Irini Square, named after the domed church that anchors the plaza.</p>
                             <a href="../views/room-3.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
                         <div>
-                            <p>Per Night: 560&euro;</p>
+                            <p>Per Night: <span class="per-night">560</span>&euro;</p>
                         </div>
                         <div>
-                            <p>Count of Guests: 1</p>
-                            <p>Type of Room: Single Room</p>
+                            <p>Count of Guests: 2</p>
+                            <p>Type of Room: Double Room</p>
                         </div>
                     </div>  
                 </article>
-                <article>
+                <article class="guests-3 athens">
                     <div class="article-description">
                         <img src="../img/rooms/room-4.jpg" alt="">
                         <div>
@@ -121,30 +120,30 @@
                     </div>
                     <div class="article-details">
                         <div>
-                            <p>Per Night: 400&euro;</p>
+                            <p>Per Night: <span class="per-night">400</span>&euro;</p>
                         </div>
                         <div>
-                            <p>Count of Guests: 1</p>
-                            <p>Type of Room: Single Room</p>
+                            <p>Count of Guests: 3</p>
+                            <p>Type of Room: Triple Room</p>
                         </div>
                     </div>  
                 </article>
-                <article>
+                <article class="guests-2 thessaloniki">
                     <div class="article-description">
                         <img src="../img/rooms/room-5.jpg" alt="">
                         <div>
-                            <h2>Four Seasons Astir Palace<br><span>Athens, Vouliagmeni</span></h2>
+                            <h2>Four Seasons Astir Palace<br><span>Thessaloniki, Toumpa</span></h2>
                             <p>The Astir Palace put the Athens Riviera on the map in the 1960s. After a recent glossy makeover courtesy of the Four Seasons, it’s back—and exactly what this up-and-coming coastline needed: a full-blown seaside hotel that isn’t stuck in the past. </p>
                             <a href="../views/room-5.php">Go to Room Page</a>
                         </div>
                     </div>
                     <div class="article-details">
                         <div>
-                            <p>Per Night: 850&euro;</p>
+                            <p>Per Night: <span class="per-night">850</span>&euro;</p>
                         </div>
                         <div>
-                            <p>Count of Guests: 1</p>
-                            <p>Type of Room: Single Room</p>
+                            <p>Count of Guests: 2</p>
+                            <p>Type of Room: Double Room</p>
                         </div>
                     </div>  
                 </article>
