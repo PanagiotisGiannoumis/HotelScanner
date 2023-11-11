@@ -49,7 +49,7 @@
                     <div class="form-group">
                         <input required class="form-control" type="text" placeholder="Name" name="name" id="name" value="">
                     </div>
-                    <textarea required placeholder="Review" name="FormPage_AddReview" name="FormPage_AddReview" id="FormPage_AddReview" cols="141" rows="5"></textarea>
+                    <textarea required placeholder="Review" name="FormPage_AddReview" name="FormPage_AddReview" id="FormPage_AddReview"></textarea>
                     <div class="review-container">
                         <div class="star"><span class="stararea">★</span></div>
                         <div class="star"><span class="stararea">★</span></div>

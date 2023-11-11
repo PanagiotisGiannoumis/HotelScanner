@@ -5,6 +5,35 @@
         max-width: 1024px;
     }
 
+    /* LIST PAGE */
+    main.list-page .main-wrapper {
+        max-width: 1024px;
+    }
+
+    main.list-page section.search-results {
+        width: 675px;
+    }
+
+    main.list-page .article-details div:nth-child(2) p {
+        width: 275px;
+    }
+
+    main.list-page .article-details div:nth-child(2) {
+        align-items: center;
+    }
+
+    main.list-page .article-details {
+        margin: 50px 0px;
+    }
+    /* LIST PAGE */
+
+    /* ROOM PAGE */
+
+    main.room-page .room-page-wrapper {
+        max-width: 1024px;
+    }
+
+    /* ROOM PAGE */
 
 }
 
@@ -32,7 +61,7 @@
         position: fixed;
         left: -100%;
         display: block;
-        top: 100px;
+        top: 80px;
         flex-direction: column;
         background-color: rgba(27,27,27,0.98);
         width: 50%;
@@ -56,12 +85,13 @@
         cursor: pointer;
         position: absolute;
         left: 40px;
-        top: 35px;
+        top: 30px;
     }
 
     header .nav ul li a {
         color: white;
         font-size: 22px;
+        justify-content: center;
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -83,6 +113,49 @@
 
     /* Hambuger Menu */
 
+    /* LIST PAGE */
+    main.list-page .main-wrapper {
+        max-width: 768px;
+    }
+
+    main.list-page .main-wrapper aside h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    main.list-page .main-wrapper aside form select {
+        background-position: 205px center;
+    }
+
+    main.list-page .price-input {
+        flex-direction: column;
+    }
+
+    main.list-page .main-wrapper aside form select, .main-wrapper aside form input[type="date"], main.list-page .price-input, main.list-page .slider, main.list-page .range-input, main.list-page .main-wrapper aside form input[type="submit"] {
+        width: 235px;
+    }
+
+    main.list-page section.search-results {
+        width: 485px;
+    }
+
+    main.list-page .article-details div:nth-child(2) p {
+        width: 175px;
+    }
+
+    main.list-page .article-description {
+        align-items: center;
+    }
+    /* LIST PAGE */
+
+    /* ROOM PAGE */
+
+    main.room-page .room-page-wrapper {
+        max-width: 768px;
+    }
+
+    /* ROOM PAGE */
+
 }
 
 @media only screen and (max-width: 768px) { 
@@ -92,6 +165,87 @@
         width: 60%;
     }
     /* Hambuger Menu */
+
+    /* LIST PAGE */
+
+    main.list-page .main-wrapper {
+        max-width: 600px;
+    }
+
+    main.list-page .main-wrapper aside h2 {
+        font-size: 16px;
+    }
+
+    main.list-page .main-wrapper aside form select {
+        background-position: 115px center;
+    }
+
+    main.list-page .main-wrapper aside form select, .main-wrapper aside form input[type="date"], main.list-page .price-input, main.list-page .slider, main.list-page .range-input, main.list-page .main-wrapper aside form input[type="submit"] {
+        width: 135px;
+        font-size: 12px;
+    }
+
+    main.list-page .main-wrapper aside form select, .main-wrapper aside form input[type="date"], main.list-page .main-wrapper aside form input[type="submit"] {
+        height: 45px;
+    }
+
+    main.list-page .price-input {
+        height: 80px;
+    }
+
+    main.list-page .field input {
+        font-size: 12px;
+    }
+
+    main.list-page .article-description img + div h2 {
+        font-size: 20px;
+    }
+
+    main.list-page .article-description img + div p {
+        font-size: 15px;
+    }
+
+    main.list-page .article-details div:nth-child(1) {
+        width: 85px;
+    }
+
+    main.list-page .article-details div:nth-child(2) p {
+        width: 155px;
+    }
+
+    main.list-page section.search-results article {
+        margin: 20px 0px;
+    }
+
+    main.list-page .article-details {
+        font-size: 13px;
+    }
+
+    main.list-page .article-description img + div a {
+        right: 15px;
+        width: 150px;
+        font-size: 15px;
+    }
+
+    /* LIST PAGE */
+
+    /* ROOM PAGE */
+
+    main.room-page .room-page-wrapper {
+        max-width: 600px;
+    }
+
+    main.room-page .room-title-container .room-title, main.room-page .room-title-container .room-price {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+    }
+
+    main.room-page .room-info-container {
+        font-size: 13px;
+    }
+
+    /* ROOM PAGE */
 }
 
 
@@ -106,11 +260,142 @@
         font-size: 20px;
     }
     /* Hambuger Menu */
+
+    /* HOME PAGE */
+
+    section.main-section {
+        max-width: 480px;
+    }
+
+    /* HOME PAGE */
+
+    /* LOGIN PAGE */
+    main.login-page .overlay {
+        width: 480px;
+    }
+    /* LOGIN PAGE */
+
+    /* REGISTER PAGE */
+    main.register-page .overlay {
+        width: 480px;
+    }
+    /* REGISTER PAGE */
+
+    /* LIST PAGE */
+
+    main.list-page .main-wrapper {
+        flex-direction: column;
+    }
+
+    main.list-page .main-wrapper aside h2 {
+        font-size: 25px;
+    }
+
+    main.list-page .main-wrapper aside form select, .main-wrapper aside form input[type="date"], main.list-page .price-input, main.list-page .slider, main.list-page .range-input, main.list-page .main-wrapper aside form input[type="submit"] {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    main.list-page .main-wrapper aside form select {
+        background-position: 200px center;
+    }
+
+    main.list-page aside {
+        margin-bottom: 30px;
+    }
+
+    main.list-page section.search-results {
+        width: 460px;
+        margin: 0 auto;
+    }
+
+    main.list-page .article-details div:nth-child(2) {
+        padding: 10px 22px;
+        margin-left: 20px;
+    }
+
+    main.list-page .article-description img + div a {
+        right: 0px;
+        left: 0px;
+        margin: 0 auto;
+    }
+
+    main.list-page .article-description {
+        flex-direction: column;
+    }
+
+    main.list-page .article-description img + div {
+        margin: 15px 0px;
+    }
+
+    main.list-page section.search-results article img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* LIST PAGE */
+
+    /* ROOM PAGE */
+
+    main.room-page .room-page-wrapper {
+        max-width: 480px;
+    }
+
+    main.room-page .room-title-container .room-title p:nth-child(1) {
+        width: unset;
+    }
+
+    main.room-page .room-title-container .room-title, main.room-page .room-title-container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main.room-page .room-title-container .room-title, main.room-page .room-title-container .room-price {
+        font-size: 16px;
+    }
+
+    main.room-page .room-page-wrapper img {
+        width: 145px;
+        height: 27px;
+    }
+
+    .star
+    .stararea {
+        width: 29px;
+        height: 54px;
+        font-size: 2em;
+    }
+
+    main.room-page section.reviews .review div:nth-of-type(2) {
+        position: unset;
+    }
+
+    main.room-page section.reviews .review {
+        align-items: center;
+    }
+
+    main.room-page .btn-danger
+    {
+        margin: 20px 0px;
+    }
+
+    main.room-page iframe {
+        height: auto;
+    }
+
+    /* ROOM PAGE */
 }
 
 @media only screen and (max-width: 480px) { 
 
     
+    .logo {
+        width: 35px;
+        height: auto;
+        margin-right: 15px;
+    }
+
     /* Hambuger Menu */
     .hamburger {
         left: 20px;
@@ -124,4 +409,145 @@
         font-size: 17px;
     }
     /* Hambuger Menu */
+
+    .footer-wrapper .logo {
+        width: 25px;
+    }
+
+    .footer-wrapper p {
+        font-size: 14px;
+    }
+
+    /* HOME PAGE */
+
+    section.main-section {
+        max-width: 320px;
+    }
+
+    section.main-section form select, section.main-section form input[type="date"] {
+        width: 135px;
+        height: 50px;
+        font-size: 13px;
+    }
+
+    section.main-section form input[type="button"] {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    section.main-section form {
+        height: 230px;
+    }
+
+    section.main-section form select {
+        background-size: 10px;
+        background-position: 113px center;
+    }
+
+    /* HOME PAGE */
+
+    /* LOGIN PAGE */
+    main.login-page .overlay {
+        width: 320px;
+    }
+
+    main.login-page .overlay form input {
+        width: 250px;
+    }
+
+    main.login-page .overlay button[type="submit"] {
+        width: 250px;
+    }
+    /* LOGIN PAGE */
+
+    /* REGISTER PAGE */
+    main.register-page .overlay {
+        width: 320px;
+    }
+
+    main.register-page .overlay form input {
+        width: 250px;
+    }
+
+    main.register-page .overlay button[type="submit"] {
+        width: 250px;
+    }
+
+    main.register-page .checkbox-container {
+        width: 265px;
+    }
+
+    main.register-page .checkbox-container label {
+        font-size: 13px;
+    }
+    /* REGISTER PAGE */
+
+    /* LIST PAGE */
+
+    main.list-page .main-wrapper aside h2 {
+        font-size: 22px;
+    }
+
+    main.list-page .main-wrapper aside form select, .main-wrapper aside form input[type="date"], main.list-page .price-input, main.list-page .slider, main.list-page .range-input, main.list-page .main-wrapper aside form input[type="submit"] {
+        width: 250px;
+        font-size: 15px;
+    }
+
+    main.list-page .main-wrapper aside form select {
+        background-position: 200px center;
+    }
+
+    main.list-page aside {
+        margin-bottom: 30px;
+    }
+
+    main.list-page section.search-results {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    main.list-page .article-details div:nth-child(2) p {
+        width: 100%;
+    }
+
+    main.list-page .article-details div:nth-child(2) {
+        padding: 10px 15px;
+        margin-left: 0px;
+    }
+
+    main.list-page .article-details div:nth-child(1) {
+        width: 105px;
+        display: flex;
+        align-items: center;
+    }
+    /* LIST PAGE */
+
+    /* ROOM PAGE */
+
+    main.room-page .room-page-wrapper {
+        max-width: 90%;
+    }
+
+    main.room-page .room-title-container .room-title, main.room-page .room-title-container .room-price {
+        font-size: 13px;
+    }
+
+    main.room-page .room-info-container {
+        font-size: 11px;
+    }
+
+    main.room-page section.reviews .review div p:nth-of-type(2) {
+        font-size: 15px;
+    }
+
+    main.room-page .room-description h2 {
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+
+    main.room-page .room-description p {
+        font-size: 15px;
+    }
+
+    /* ROOM PAGE */
 }

@@ -308,35 +308,35 @@ if ( window.location.href.indexOf("room") > -1  )
     
             if($('.review-container .review-container2 img').hasClass('stars1')) {
               notes.push(
-                "<span class='review-name'>"+$namevalue+": </span>"+value+` <div class="review-container2">
+                "<p class='review-name'>"+$namevalue+"<span class='review-p'>"+":"+value+"</span></p>"+` <div class="review-container2">
                 <img src="../img/stars-1.png" class="stars1" alt="">
               </div> `+"<br><br><p>Add time: "+date+"</p>"
               );
             }
             else if($('.review-container .review-container2 img').hasClass('stars2')) {
               notes.push(
-                "<span class='review-name'>"+$namevalue+": </span>"+value+` <div class="review-container2">
+                "<p class='review-name'>"+$namevalue+"<span class='review-p'>"+":"+value+"</span></p>"+` <div class="review-container2">
                 <img src="../img/stars-2.png" class="stars2" alt="">
               </div> `+"<br><br><p>Add time: "+date+"</p>"
               );
             }
             else if($('.review-container .review-container2 img').hasClass('stars3')) {
               notes.push(
-                "<span class='review-name'>"+$namevalue+": </span>"+value+` <div class="review-container2">
+                "<p class='review-name'>"+$namevalue+"<span class='review-p'>"+":"+value+"</span></p>"+` <div class="review-container2">
                 <img src="../img/stars-3.png" class="stars3" alt="">
               </div> `+"<br><br><p>Add time: "+date+"</p>"
               );
             }
             else if($('.review-container .review-container2 img').hasClass('stars4')) {
               notes.push(
-                "<span class='review-name'>"+$namevalue+": </span>"+value+` <div class="review-container2">
+                "<p class='review-name'>"+$namevalue+"<span class='review-p'>"+":"+value+"</span></p>"+` <div class="review-container2">
                 <img src="../img/stars-4.png" class="stars4" alt="">
               </div> `+"<br><br><p>Add time: "+date+"</p>"
               );
             }
             else if($('.review-container .review-container2 img').hasClass('stars5')) {
               notes.push(
-                "<span class='review-name'>"+$namevalue+": </span>"+value+` <div class="review-container2">
+                "<p class='review-name'>"+$namevalue+"<span class='review-p'>"+":"+value+"</span></p>"+` <div class="review-container2">
                 <img src="../img/stars-5.png" class="stars5" alt="">
               </div> `+"<br><br><p>Add time: "+date+"</p>"
               );
