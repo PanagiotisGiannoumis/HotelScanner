@@ -7,7 +7,7 @@
         <div class="login-page-wrapper">
             <div class="overlay">
                 <h2>Sign in</h2>
-                <form action="" method="">
+                <form action="../views/profile.php" method="">
                     <input type="input" name="LoginPage_Email" id="LoginPage_Email" placeholder="Your email">
                     <div class="text-danger email-error">
                         Must be a valid email address! Ex. example@example.com

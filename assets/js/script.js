@@ -368,3 +368,12 @@ if ( window.location.href.indexOf("room") > -1  )
     });
 }
 //ROOM PAGE
+
+// PROFILE PAGE
+
+if ( window.location.href.indexOf("profile.php") > -1  )
+{
+  $('.nav ul li:nth-child(2) a').html("<i class='fa-solid fa-user'></i>Profile");
+}
+
+// PROFILE PAGE

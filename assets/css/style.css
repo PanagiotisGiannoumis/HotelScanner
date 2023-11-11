@@ -1066,5 +1066,128 @@ section.add-review div button[type="submit"] {
 }
 /* ROOM PAGE */
 
+/* PROFILE PAGE */
+main.profile-page {
+    background-image: unset;
+    height: auto;
+}
+
+main.profile-page .main-wrapper {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main.profile-page aside {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+main.profile-page .main-wrapper aside h2 {
+    text-transform: uppercase;
+    color: #697cae;
+    margin: 15px 0px;
+}
+
+main.profile-page aside img {
+    width: 95px;
+    height: 20px;
+}
+
+main.profile-page section {
+    width: 850px;
+} 
+
+main.profile-page section.search-results > h2 {
+    background-color: #697cae;
+    color: white;
+    padding: 10px 0px 10px 10px;
+}
+
+main.profile-page section.search-results article {
+    margin: 40px 0px;
+}
+
+main.profile-page .article-description {
+    display: flex;
+}
+
+main.profile-page section.search-results article img {
+    width: 150px;
+    height: 130px;
+}
+
+main.profile-page .article-description img + div {
+    margin-left: 20px;
+    border-left: 2px solid #697cae;
+    padding-left: 15px;
+    position: relative;
+}
+
+main.profile-page .article-description img + div h2 {
+    line-height: 20px;
+}
+
+main.profile-page .article-description img + div p {
+    margin: 10px 0px;
+}
+
+main.profile-page .article-description img + div a {
+    position: absolute;
+    right: 0px;
+    width: 180px;
+    background-color: #697cae;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main.profile-page .article-details {
+    display: flex;
+    margin: 30px 0px;
+}
+
+main.profile-page .article-details div:nth-child(1) {
+    background-color: #757575;
+    color: white;
+    padding: 10px 5px;
+    width: 150px;
+}
+
+main.profile-page .article-details div:nth-child(1) p {
+    text-align: center;
+}
+
+main.profile-page .article-details div:nth-child(2) {
+    display: flex;
+    background-color: #eeeeee;
+    color: black;
+    padding: 10px 5px;
+    margin-left: 10px;
+}
+
+main.profile-page .article-details div:nth-child(2) p:nth-child(1) {
+    border-right: 1px solid black;
+}
+
+main.profile-page .article-details div:nth-child(2) p {
+    width: 350px;
+    text-align: center;
+}
+
+main.profile-page .article-details div:nth-child(2) p {
+    width: 350px;
+    text-align: center;
+}
+/* PROFILE PAGE */
 
 
