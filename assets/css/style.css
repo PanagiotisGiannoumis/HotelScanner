@@ -716,12 +716,26 @@ main.room-page .room-description-container {
     position: relative;
 }
 
-main.room-page .room-description-container button {
+main.room-page .room-description-container .booked {
     position: absolute;
     right: 0px;
     left: 0px;
     width: 180px;
     background-color: #d80d0d;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 0px;
+    margin: 25px auto;
+    border-radius: 5px;
+}
+
+main.room-page .room-description-container .available {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    width: 180px;
+    background-color: rgb(7, 156, 2);
     color: white;
     font-size: 15px;
     border: none;

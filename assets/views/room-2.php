@@ -33,7 +33,7 @@
                     <p>The stylish rooftop Galaxy Bar serves signature cocktails, while offering Acropolis views from its open-air terrace. The Oasis Pool Bar Grill serves Mediterranean cuisine or snacks.</p>
                     <p>Located in the commercial district of the city, the hotel is just 1,650 feet from the National Art Gallery, the Athens Concert Hall and the Kolonaki shopping district. The famous Acropolis of Athens is 2.5 mi away and the historic Plaka area lies within 1.6 mi.</p>
                 </div>
-                <button>Already Booked</button>
+                <button class="booked">Already Booked</button>
             </div>
             <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.040583380918!2d23.73273737691023!3d37.976182200530836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd4b45322381%3A0xb126665c4705d54b!2sHotel%20Grande%20Bretagne%2C%20a%20Luxury%20Collection%20Hotel%2C%20Athens!5e0!3m2!1sen!2sgr!4v1695993417285!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <!-- <hr> -->

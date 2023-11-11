@@ -29,7 +29,7 @@
                     <h2>Hotel Description</h2>
                     <p>You could walk past this residence on a pedestrian street in upmarket Kolonaki and never know it was the city’s most soulful guesthouse. Step inside and it’s like wandering into the bohemian home of an art collector: a softly lit salon with a Strauss piano, antiques upholstered in vintage fabrics and a library of wonderful books. Two ethereal ground-floor suites have verandas shaded by a loquat tree. Up the marble staircase are four more enormous suites with velvet divans, floating beds, intriguing artworks, and sultry bathrooms with rough-hewn marble sinks—one even has a swing. Local chocolatiers, parfumiers, and coffee shops create delicious treats and toiletries for every room. The greatest surprise is the roof garden: an urban jungle of plants, day beds, and outdoor showers. Wonderfully idiosyncratic, this is a rare treasure that feels genuinely lived-in.</p>
                 </div>
-                <button>Already Booked</button>
+                <button class="booked">Already Booked</button>
             </div>
             <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.040583380918!2d23.73273737691023!3d37.976182200530836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd4b45322381%3A0xb126665c4705d54b!2sHotel%20Grande%20Bretagne%2C%20a%20Luxury%20Collection%20Hotel%2C%20Athens!5e0!3m2!1sen!2sgr!4v1695993417285!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <!-- <hr> -->

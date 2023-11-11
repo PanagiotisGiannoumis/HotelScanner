@@ -29,7 +29,7 @@
                     <h2>Hotel Description</h2>
                     <p>The Astir Palace put the Athens Riviera on the map in the 1960s. After a recent glossy makeover courtesy of the Four Seasons, it’s back—and exactly what this up-and-coming coastline needed: a full-blown seaside hotel that isn’t stuck in the past. Subdued bedrooms epitomize stealth wealth (pay the premium for a sea view) and high-rollers quaff champagne cocktails in Martin Brudnizki’s trio of sexy restaurants or are cosseted in the waterfront spa. The young and restless can whizz across the bay on water-skis, or you could easily while away day after day on a floating sunbed, watching a parade of super yachts drift by under dazzling sunsets over the Saronic isles. And for dinner there's Michelin-starred Pelagos, tricked out like an Art Deco ocean liner—and the best of the four sensational, sea-view restaurants.</p>
                 </div>
-                <button>Already Booked</button>
+                <button class="available">Available rooms</button>
             </div>
             <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.040583380918!2d23.73273737691023!3d37.976182200530836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd4b45322381%3A0xb126665c4705d54b!2sHotel%20Grande%20Bretagne%2C%20a%20Luxury%20Collection%20Hotel%2C%20Athens!5e0!3m2!1sen!2sgr!4v1695993417285!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <!-- <hr> -->
