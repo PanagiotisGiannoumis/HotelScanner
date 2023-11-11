@@ -13,24 +13,18 @@
                         <option value="one">1</option>
                         <option value="two">2</option>
                         <option value="three">3</option>
-                        <option value="four">4</option>
-                        <option value="five">5</option>
                     </select>
                     <select name="ListPageForm_RoomType" id="ListPageForm_RoomType">
                         <option value="">Room Type</option>
                         <option value="single">Single</option>
                         <option value="double">Double</option>
                         <option value="triple">Triple</option>
-                        <option value="quad">Quad</option>
-                        <option value="king">King</option>
                     </select>
                     <select class="select-city" name="ListPageForm_City" id="ListPageForm_City" required>
                         <option value="">City</option>
                         <option value="athens">Athens</option>
                         <option value="thessaloniki">Thessaloniki</option>
                         <option value="patra">Patra</option>
-                        <option value="heraklion">Heraklion</option>
-                        <option value="larissa">Larissa</option>
                     </select>
                     <!-- Price Slider -->
                     <div class="price-input">

@@ -17,6 +17,13 @@ function closeMenu() {
     navMenu.classList.remove("active");	
 }
 
+const homeButton = document.querySelector("section.main-section form input[type='button']");
+
+homeButton.addEventListener("click", function(e) {
+  let homeButtonValue = e.target.value;
+  console.log(homeButtonValue);
+});
+
 // LIST PAGE
 if ( window.location.href.indexOf("list.php") > -1  )
 {
