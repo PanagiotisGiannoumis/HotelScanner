@@ -83,6 +83,16 @@ if ( window.location.href.indexOf("list.php") > -1  )
     console.log(values);
     console.log(values.inputmin);
     if(values.guests === "one" && values.city === "athens") {
+      if(input_min.value <= 0 && input_max.value <= 350) {
+        $(".guests-1").hide();
+        $(".guests-2").hide();
+        $(".guests-3").hide();
+      }
+      else if(input_min.value > 360 && input_max.value <= 1000) {
+        $(".guests-1").hide();
+        $(".guests-2").hide();
+        $(".guests-3").hide();
+      }
       $(".guests-2.thessaloniki").hide();
       $(".guests-3.athens").hide();
     }
@@ -92,34 +102,58 @@ if ( window.location.href.indexOf("list.php") > -1  )
       $(".guests-3").hide();
     }
     else if (values.guests === "three" && values.city === "athens") {
-      $(".guests-1.athens").hide();
+      if(input_min.value <= 0 && input_max.value < 400) {
+        $(".guests-1").hide();
+        $(".guests-2").hide();
+        $(".guests-3").hide();
+      }
+      else if(input_min.value >= 400 && input_max.value < 750) {
+        $(".guests-1.athens").hide();
+        $(".guests-2.thessaloniki").hide();
+        $(".guests-3.athens:nth-of-type(1)").hide();
+      }
+      else if(input_min.value >= 750 && input_max.value < 100) {
+        $(".guests-1.athens").hide();
+        $(".guests-2.thessaloniki").hide();
+        $(".guests-3.athens:nth-of-type(2)").hide();
+      }
       $(".guests-2.thessaloniki").hide();
+      $(".guests-1.athens").hide();  
     }
-    else if (values.guests === "one" && values.city === "thessaloniki") {
+    if(values.guests === "one" && values.city === "thessaloniki") {
+      $(".guests-1").hide();
+      $(".guests-2").hide();
+      $(".guests-3").hide();
+    } 
+    else if(values.guests === "two" && values.city === "thessaloniki") {
+      if(input_min.value <= 0 && input_max.value <= 550) {
+        $(".guests-1").hide();
+        $(".guests-2").hide();
+        $(".guests-3").hide();
+      }
+      else if (input_min.value > 550 && input_max.value <= 800) {
+        $(".guests-1").hide();
+        $(".search-results article:nth-of-type(5)").hide();
+        $(".guests-3").hide();
+      }
+      else if (input_min.value > 800 && input_max.value <= 1000) {
+        $(".guests-1").hide();
+        $(".search-results article:nth-of-type(1)").hide();
+        $(".guests-3").hide();
+      }
+      $(".guests-3").hide();
+      $(".guests-1").hide();
+    }
+    else if(values.guests === "three" && values.city === "thessaloniki") {
       $(".guests-1").hide();
       $(".guests-2").hide();
       $(".guests-3").hide();
     }
-    else if (values.guests === "two" && values.city === "thessaloniki") {
-      $(".guests-1.athens").hide();
-      $(".guests-3.athens").hide();
-    }
-    else if (values.guests === "three" && values.city === "thessaloniki") {
-      $(".guests-1").hide();
-      $(".guests-2").hide();
-      $(".guests-3").hide();
-    }
-  //   else if(values.inputmax <= 350) {
-  //     $(".guests-1").hide();
-  //     $(".guests-2").hide();
-  //     $(".guests-3").hide();
-  //   }
-  //   else if(values.inputmin > 350 && values.inputmax < 400) {
-  //     $(".guests-1").hide();
-  //     $(".guests-2").hide();
-  //     $(".guests-3").hide();
-  //   }
-  // console.log($(".per-night").text());
+    
+    
+
+    
+  console.log(Number($(".per-night").text()));
   });
 }
 // LIST PAGE
