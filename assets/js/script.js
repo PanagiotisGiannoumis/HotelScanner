@@ -80,8 +80,6 @@ if ( window.location.href.indexOf("list.php") > -1  )
         inputmin: input_min.value,
         inputmax: input_max.value,
     };
-    console.log(values);
-    console.log(values.inputmin);
     if(values.guests === "one" && values.city === "athens") {
       if(input_min.value <= 0 && input_max.value <= 350) {
         $(".guests-1").hide();
@@ -149,11 +147,6 @@ if ( window.location.href.indexOf("list.php") > -1  )
       $(".guests-2").hide();
       $(".guests-3").hide();
     }
-    
-    
-
-    
-  console.log(Number($(".per-night").text()));
   });
 }
 // LIST PAGE
